@@ -284,32 +284,40 @@ margin-right: 30px;
             0px 2px 1px rgba(0, 0, 0, 0.2);
             border-radius: 0px 0px 4px 4px;
         }
+        .team-soc-list {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .team-soc-item+.team-soc-item {
+            margin-left: 10px;
+        }
 /*посилання на соцмережі*/
         .team-soc-link{
             width: 44px;
             height: 44px;
-            background-color: tomato;
+            background-color: #FFFFFF;
             border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
+           /* fill: #FFFFFF;*/
         }
-        .team-soc-list{
-            display: flex;
-            justify-content: center;
-        }
-        .team-soc-item + .team-soc-item{
-            margin-left: 10px;
-        }
+      
         .team-soc-icon{
             fill: #FFFFFF;
         }
-        .team-soc-link:hover {
-            background-color: #2196F3;
+        .team-soc-link:hover{
+         background-color:var(--accsent-color);
+        /*fill: #2196F3;*/
         }
         .team-soc-link:hover .team-soc-icon{
-        fill: #2196F3;
+        fill:#FFFFFF;
         }
+        .team-soc-link:focus{
+        background-color: var(--hero-title-color);
+        }
+
          /*footer*/
        .footer{
           padding-top: 60px;
