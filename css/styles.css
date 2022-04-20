@@ -304,6 +304,12 @@ margin-right: 30px;
         .team-soc-icon{
             fill: #FFFFFF;
         }
+        .team-soc-link:hover {
+            background-color: #2196F3;
+        }
+        .team-soc-link:hover .team-soc-icon{
+        fill: #2196F3;
+        }
          /*footer*/
        .footer{
           padding-top: 60px;
