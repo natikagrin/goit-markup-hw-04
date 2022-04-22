@@ -243,7 +243,7 @@ margin-right: 30px;
         justify-content: space-between;
      }
     .team-title{
-     padding-bottom: 50px;
+     margin-bottom: 50px;
      font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 1.2;
@@ -305,19 +305,17 @@ margin-right: 30px;
         }
       
         .team-soc-icon{
-            fill: #FFFFFF;
+            fill: #AFB1B8;
         }
-        .team-soc-link:hover{
+        .team-soc-link:hover,
+        .team-soc-link:focus{
          background-color:var(--accsent-color);
         /*fill: #2196F3;*/
         }
         .team-soc-link:hover .team-soc-icon{
         fill:#FFFFFF;
         }
-        .team-soc-link:focus{
-        background-color: var(--hero-title-color);
-        }
-
+       
          /*footer*/
        .footer{
           padding-top: 60px;
@@ -359,4 +357,61 @@ margin-right: 30px;
             letter-spacing: 0.03em;
             color: rgba(255, 255, 255, 0.6);
          }
-       
+         .contact-tel{
+            font-family: Roboto,
+            sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+         }
+         .join{
+          margin-left: 516px;
+           
+         }
+         .join .container{
+            display: flex;
+           }
+         .join-title{
+        margin-bottom: 20px;  
+        font-family: Roboto sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+         }
+         
+        .join-soc {
+        display: flex;
+           
+        }
+        .join-soc-link {
+            width: 44px;
+            height: 44px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* fill: #FFFFFF;*/
+        }
+        
+        .join-soc-item {
+            fill: var(--hero-title-color);
+            margin-left: 10px;}
+        /*змінити колір елемента
+        .join-soc-icon:nth-child(2){
+        color: #2196F3;
+        }*/
+        .join-soc-link:hover,
+        .join-soc-link:focus {
+            background-color: var(--accsent-color);
+            /*fill: #2196F3;*/
+        }
+        
+        .join-soc-link:hover .team-soc-icon {
+            fill: #FFFFFF;
+        }
