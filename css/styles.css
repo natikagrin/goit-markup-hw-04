@@ -118,6 +118,16 @@ margin-right:50px ;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
     }
+    
+    .header-tel:hover,
+    .header-tel:focus{
+        color: var(--accsent-color);
+    }
+.contact-icon{
+    margin-right: 10px;
+    fill: #757575;
+}
+
     /*hero*/
     .hero{
      background: #2F303A;
