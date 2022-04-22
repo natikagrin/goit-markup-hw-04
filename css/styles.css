@@ -109,7 +109,7 @@ margin-right:50px ;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--accsent-color);
+    color: var(--second-title-color)
     }
     .header-tel{
     font-weight: 500;
@@ -120,7 +120,11 @@ margin-right:50px ;
     }
     
     .header-tel:hover,
-    .header-tel:focus{
+    .header-tel:focus,
+    .header-mail:hover,
+    .header-mail:focus,
+    .contact-icon:hover,
+   .contact-icon:focus{
         color: var(--accsent-color);
     }
 .contact-icon{
@@ -358,9 +362,9 @@ margin-right: 30px;
        .client-item{
         width: 170px;
         height: 92px;
-        left: 215px;
-        top: 2493px;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border: 1px solid #AFB1B8;
         box-sizing: border-box;
         border-radius: 4px;
@@ -370,20 +374,19 @@ margin-right: 30px;
         border-color: var(--accsent-color)
     }
        .client-link{
-        width: 106px;
-        height: 60px;
-        background-color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       background-color: #FFFFFF;
        }
     .client-icon{
+        cursor: pointer;
+        width: 106px;
+        height: 60px;
         fill:#AFB1B8;
     }
+    .client-item:hover .client-icon {
+        fill: var(--accsent-color)
+    }
     
-    
-    
-         /*footer*/
+       /*footer*/
        .footer{
           padding-top: 60px;
           padding-bottom: 60px;
@@ -428,8 +431,7 @@ margin-right: 30px;
             color: rgba(255, 255, 255, 0.6);
          }
          .contact-tel{
-            font-family: Roboto,
-            sans-serif;
+            font-family: Roboto, sans-serif;
             font-weight: 400;
             font-size: 14px;
             line-height: 1.7;
@@ -437,14 +439,14 @@ margin-right: 30px;
             color: rgba(255, 255, 255, 0.6);
          }
          .join{
-          margin-left: 516px;
-           
-         }
+         margin-left: 70px;
+         padding-top: 10px;
+      }
          .join .container{
             display: flex;
            }
          .join-title{
-        margin-bottom: 20px;  
+       margin-bottom: 20px;  
         font-family: Roboto sans-serif;
         font-weight: 700;
         font-size: 14px;
@@ -456,8 +458,7 @@ margin-right: 30px;
          
         .join-soc {
         display: flex;
-           
-        }
+            }
         .join-soc-link {
             width: 44px;
             height: 44px;
@@ -472,7 +473,11 @@ margin-right: 30px;
         
         .join-soc-item {
             fill: var(--hero-title-color);
-            margin-left: 10px;}
+       
+        }
+        .join-soc-item+.join-soc-item {
+            margin-left: 10px;
+        }
         /*змінити колір елемента
         .join-soc-icon:nth-child(2){
         color: #2196F3;
