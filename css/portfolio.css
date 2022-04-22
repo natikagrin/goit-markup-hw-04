@@ -44,10 +44,8 @@ background-color: #2196F3;}
     }
     .portfolio-item:hover,
     .portfolio-item:focus{
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+       box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px; 
     }
 .portfolio-title{
    margin-bottom: 4px;
@@ -72,8 +70,8 @@ color: #757575;
 .gallery-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;  
-}  
+    gap: 30px; /*виставити елементи по вертикалі та горизонталі*/
+     }  
 /* margin-left: -30px;
     margin-bottom: -30px;
 }
@@ -82,10 +80,24 @@ color: #757575;
  margin-left: 30px;
  margin-bottom: 30px;
 }*/
-.galery-item:hover,
-.galery-item:focus{
-    border-color: var(--accsent-color);
-
+.galery-link:hover{
+    background-color: var(--accsent-color);
+}
+.galery-link{
+ border: var(--accsent-color);
+width: 370px;
+height: 404px;
+}
+.galery-item{
+    width: 370px;
+    height: 404px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .foto-bottom{
     border: 1px solid #EEEEEE;
