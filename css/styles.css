@@ -335,7 +335,35 @@ margin-right: 30px;
         .team-soc-link:hover .team-soc-icon{
         fill:#FFFFFF;
         }
-       
+       .client-title{
+           margin-bottom: 50px;
+        font-family: Roboto,sans-serif;
+       font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+        color: var(--main-title-color);
+       }
+       .client{
+           padding-top: 94px;
+           padding-bottom: 94px;
+       }
+       .client-list{
+           display: flex;
+            justify-content: space-between;
+       }
+       .client-item{
+        width: 170px;
+        height: 92px;
+        left: 215px;
+        top: 2493px;
+        
+        border: 1px solid #AFB1B8;
+        box-sizing: border-box;
+        border-radius: 4px;
+       }
          /*footer*/
        .footer{
           padding-top: 60px;
