@@ -394,10 +394,10 @@ margin-right: 30px;
         height: 60px;
         fill:#AFB1B8;
     }
-    .client-item:hover .client-icon {
+    .client-link:hover .client-icon {
         fill: var(--accsent-color)
     }
-    .client-item:focus .client-icon {
+    .client-link:focus .client-icon {
         fill: var(--accsent-color)
     }
        /*footer*/
@@ -405,8 +405,7 @@ margin-right: 30px;
           padding-top: 60px;
           padding-bottom: 60px;
           background: #2F303A;
-        
-        }
+      }
         .footer .container{
             display: flex;
         }
@@ -427,8 +426,7 @@ margin-right: 30px;
             color: var(--hero-title-color);
         }
         .contact-link{
-            margin-bottom: 9px;
-            font-family: Roboto,sans-serif;
+           font-family: Roboto,sans-serif;
             font-weight: 400;
             font-size: 14px;
             line-height: 1.7;
@@ -436,7 +434,6 @@ margin-right: 30px;
            color: var(--hero-title-color); 
          }
          .contact{
-            margin-bottom: 9px;
             font-family: Roboto,sans-serif;
             font-weight: 400;
             font-size: 14px;
@@ -444,13 +441,8 @@ margin-right: 30px;
             letter-spacing: 0.03em;
             color: rgba(255, 255, 255, 0.6);
          }
-         .contact-tel{
-            font-family: Roboto, sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.7;
-            letter-spacing: 0.03em;
-            color: rgba(255, 255, 255, 0.6);
+         .contacts{
+             padding-bottom: 9px;
          }
          .join{
          margin-left: 70px;
@@ -461,7 +453,6 @@ margin-right: 30px;
            }
          .join-title{
        margin-bottom: 20px;  
-        font-family: Roboto sans-serif;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.7;
@@ -481,9 +472,7 @@ margin-right: 30px;
             display: flex;
             justify-content: center;
             align-items: center;
-            
-            /* fill: #FFFFFF;*/
-        }
+            }
         
         .join-soc-item {
             fill: var(--hero-title-color);
@@ -498,7 +487,6 @@ margin-right: 30px;
         }*/
         .join-soc-link:hover{
             background-color: var(--accsent-color);
-            /*fill: #2196F3;*/
         }
         .join-soc-link:focus{
             background-color: var(--accsent-color);
