@@ -492,9 +492,9 @@ margin-right: 30px;
             background-color: var(--accsent-color);
         }
         
-        .join-soc-link:hover .team-soc-icon {
+        .join-soc-link:hover .join-soc-icon {
             fill: #FFFFFF;
         }
-        .join-soc-link:focus .team-soc-icon {
+        .join-soc-link:focus .join-soc-icon {
             fill: #FFFFFF;
         }
